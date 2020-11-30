@@ -1,4 +1,4 @@
-# Hire Choices Job Board
+# Nomadbnb - Vacation Rentals, Homes, Experience & Places
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
