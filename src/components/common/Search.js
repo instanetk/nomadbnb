@@ -68,19 +68,39 @@ const Search = () => {
           <span className="text-sm font-semibold text-gray-500 sm:block">Property Type</span>
           <div className="sm:flex">
             <label className="mt-3 flex items-center sm:w-1/4">
-              <input className="form-radio" type="radio" name="propertyType" value="house" />
+              <input
+                className="form-radio border-0 focus:ring-0 focus:ring-offset-0"
+                type="radio"
+                name="propertyType"
+                value="house"
+              />
               <span className="ml-2 text-white">House</span>
             </label>
             <label className="mt-3 flex items-center sm:w-1/4">
-              <input className="form-radio" type="radio" name="propertyType" value="apartment" />
+              <input
+                className="form-radio border-0 focus:ring-0 focus:ring-offset-0"
+                type="radio"
+                name="propertyType"
+                value="apartment"
+              />
               <span className="ml-2 text-white">Apartment</span>
             </label>
             <label className="mt-3 flex items-center sm:w-1/4">
-              <input className="form-radio" type="radio" name="propertyType" value="loft" />
+              <input
+                className="form-radio border-0 focus:ring-0 focus:ring-offset-0"
+                type="radio"
+                name="propertyType"
+                value="loft"
+              />
               <span className="ml-2 text-white">Loft</span>
             </label>
             <label className="mt-3 flex items-center sm:w-1/4">
-              <input className="form-radio" type="radio" name="propertyType" value="townhouse" />
+              <input
+                className="form-radio border-0 focus:ring-0 focus:ring-offset-0"
+                type="radio"
+                name="propertyType"
+                value="townhouse"
+              />
               <span className="ml-2 text-white">Townhouse</span>
             </label>
           </div>
@@ -89,31 +109,52 @@ const Search = () => {
           <span className="text-sm font-semibold text-gray-500">Amenities</span>
           <div className="sm:flex sm:flex-wrap sm:-ml-2">
             <label className=" mt-3 flex items-center sm:w-1/4 sm:px-2">
-              <input className="form-checkbox text-gray-900" type="checkbox" name="balcony" checked />
+              <input
+                className="form-checkbox border-0 focus:ring-0 focus:ring-offset-0"
+                type="checkbox"
+                name="balcony"
+                checked
+              />
               <span className="ml-2 text-white">Balcony</span>
             </label>
             <label className=" mt-3 flex items-center sm:w-1/4 sm:px-2">
-              <input className="form-checkbox text-gray-900" type="checkbox" name="airConditioning" />
+              <input
+                className="form-checkbox border-0 focus:ring-0 focus:ring-offset-0"
+                type="checkbox"
+                name="airConditioning"
+              />
               <span className="ml-2 text-white">Air conditioning</span>
             </label>
             <label className=" mt-3 flex items-center sm:w-1/4 sm:px-2">
-              <input className="form-checkbox" type="checkbox" name="pool" />
+              <input className="form-checkbox border-0 focus:ring-0 focus:ring-offset-0" type="checkbox" name="pool" />
               <span className="ml-2 text-white">Pool</span>
             </label>
             <label className=" mt-3 flex items-center sm:w-1/4 sm:px-2">
-              <input className="form-checkbox" type="checkbox" name="beach" />
+              <input className="form-checkbox border-0 focus:ring-0 focus:ring-offset-0" type="checkbox" name="beach" />
               <span className="ml-2 text-white">Beach</span>
             </label>
             <label className=" mt-3 flex items-center sm:w-1/4 sm:px-2">
-              <input className="form-checkbox" type="checkbox" name="petFriendly" />
+              <input
+                className="form-checkbox border-0 focus:ring-0 focus:ring-offset-0"
+                type="checkbox"
+                name="petFriendly"
+              />
               <span className="ml-2 text-white">Pet friendly</span>
             </label>
             <label className=" mt-3 flex items-center sm:w-1/4 sm:px-2">
-              <input className="form-checkbox" type="checkbox" name="kidFriendly" />
+              <input
+                className="form-checkbox border-0 focus:ring-0 focus:ring-offset-0"
+                type="checkbox"
+                name="kidFriendly"
+              />
               <span className="ml-2 text-white">Kid friendly</span>
             </label>
             <label className=" mt-3 flex items-center sm:w-1/4 sm:px-2">
-              <input className="form-checkbox" type="checkbox" name="parking" />
+              <input
+                className="form-checkbox border-0 focus:ring-0 focus:ring-offset-0"
+                type="checkbox"
+                name="parking"
+              />
               <span className="ml-2 mt-1 text-white">Parking</span>
             </label>
           </div>
