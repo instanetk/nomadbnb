@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = ({ property, cost, beds, baths, reviews, plus }) => {
   return (
-    <div className="mt-10 sm:mt-0 sm:px-2 sm:max-w-xs sm:w-full sm:flex-shrink-0">
+    <div className="mt-10 sm:mt-0 sm:px-2 sm:w-80 sm:flex-shrink-0">
       <div className="relative pb-5/6">
         <img
           className="inset-0 rounded-lg shadow-md w-full"
