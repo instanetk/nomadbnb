@@ -5,7 +5,7 @@ const Search = () => {
 
   return (
     <section className="bg-gray-800">
-      <div className="flex px-4 py-3">
+      <div className="flex justify-between px-4 py-3">
         <div className="relative w-full">
           <div className="absolute inset-y-0 left-0 flex items-center pl-3">
             <svg
@@ -23,7 +23,7 @@ const Search = () => {
           <div className="flex justify-between">
             <input
               className="block max-w-sm w-full bg-gray-900 shadow focus:outline-none focus:bg-gray-200 focus:text-gray-900 text-white rounded-lg pl-10 pr-2 py-2"
-              placeholder="Search by keyword"></input>
+              placeholder="Search by city"></input>
             <button
               onClick={() => setSearch(!doSearch)}
               className="inline-flex bg-gray-700 hover:bg-gray-600 focus:outline-none focus:shadow-ouline rounded-lg shadow pr-4 pl-3 py-2 ml-2 items-center">
@@ -64,10 +64,10 @@ const Search = () => {
             </label>
           </div>
         </fieldset>
-        <fieldset className="px-4 py-4 border-t border-gray-900">
-          <span className="text-sm font-semibold text-gray-500 sm:block">Property Type</span>
-          <div className="sm:flex">
-            <label className="mt-3 flex items-center sm:w-1/4">
+        <div className="px-4 py-4 border-t border-gray-900">
+          <span className="block text-sm font-semibold text-gray-500">Property Type</span>
+          <div className="sm:flex sm:-mx-2">
+            <label className="mt-3 sm:w-1/4 sm:px-2 flex items-center">
               <input
                 className="form-radio border-0 focus:ring-0 focus:ring-offset-0"
                 type="radio"
@@ -76,7 +76,7 @@ const Search = () => {
               />
               <span className="ml-2 text-white">House</span>
             </label>
-            <label className="mt-3 flex items-center sm:w-1/4">
+            <label className="mt-3 sm:w-1/4 sm:px-2 flex items-center">
               <input
                 className="form-radio border-0 focus:ring-0 focus:ring-offset-0"
                 type="radio"
@@ -85,7 +85,7 @@ const Search = () => {
               />
               <span className="ml-2 text-white">Apartment</span>
             </label>
-            <label className="mt-3 flex items-center sm:w-1/4">
+            <label className="mt-3 sm:w-1/4 sm:px-2 flex items-center">
               <input
                 className="form-radio border-0 focus:ring-0 focus:ring-offset-0"
                 type="radio"
@@ -94,7 +94,7 @@ const Search = () => {
               />
               <span className="ml-2 text-white">Loft</span>
             </label>
-            <label className="mt-3 flex items-center sm:w-1/4">
+            <label className="mt-3 sm:w-1/4 sm:px-2 flex items-center">
               <input
                 className="form-radio border-0 focus:ring-0 focus:ring-offset-0"
                 type="radio"
@@ -104,11 +104,11 @@ const Search = () => {
               <span className="ml-2 text-white">Townhouse</span>
             </label>
           </div>
-        </fieldset>
-        <fieldset className="px-4 py-4 border-t border-gray-900">
-          <span className="text-sm font-semibold text-gray-500">Amenities</span>
-          <div className="sm:flex sm:flex-wrap sm:-ml-2">
-            <label className=" mt-3 flex items-center sm:w-1/4 sm:px-2">
+        </div>
+        <div className="px-4 py-4 border-t border-gray-900">
+          <span className="block text-sm font-semibold text-gray-500">Amenities</span>
+          <div className="sm:flex sm:-mx-2 sm:flex-wrap">
+            <label className="mt-3 flex items-center sm:w-1/4 sm:px-2">
               <input
                 className="form-checkbox border-0 focus:ring-0 focus:ring-offset-0"
                 type="checkbox"
@@ -158,7 +158,7 @@ const Search = () => {
               <span className="ml-2 mt-1 text-white">Parking</span>
             </label>
           </div>
-        </fieldset>
+        </div>
         <div className="bg-gray-900 px-4 py-4 sm:text-right">
           <button className="block w-full sm:w-auto sm:inline-block bg-indigo-500 hover:bg-indigo-400 font-semibold text-white px-4 py-4 sm:py-3 rounded-lg">
             Update results
