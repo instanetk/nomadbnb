@@ -21,9 +21,9 @@ textarea {
 }
 
 input[type='checkbox'] {
-  @apply h-6 w-6 rounded-sm bg-gray-900 border-none text-indigo-500;
+  @apply h-6 w-6 rounded-sm bg-gray-900 border-none text-indigo-500 border-0 focus:ring-0 focus:ring-offset-0;
 }
 
 input[type='radio'] {
-  @apply h-6 w-6 bg-gray-900 border-none text-indigo-500;
+  @apply h-6 w-6 bg-gray-900 border-none text-indigo-500 border-0 focus:ring-0 focus:ring-offset-0;
 }
