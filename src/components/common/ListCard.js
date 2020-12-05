@@ -3,7 +3,7 @@ import React from 'react';
 const Card = ({ property, cost, beds, baths, reviews, plus }) => {
   return (
     <div className="mt-10 sm:mt-0 sm:px-2 sm:w-80 sm:flex-shrink-0">
-      <div className="relative">
+      <div className="relative pb-5/6">
         <img
           className="inset-0 rounded-lg shadow-md w-full"
           src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
